@@ -1,4 +1,4 @@
 FROM microsoft/dotnet:latest
-WORKDIR unit-testing-using-dotnet-test
+WORKDIR PrimeService.Tests
 COPY ./publish .
 ENTRYPOINT [ "dotnet", "unit-testing-using-dotnet-test.dll" ]
